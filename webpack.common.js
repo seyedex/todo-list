@@ -7,7 +7,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // Export the configuration object
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/app.js",
   output: {
     filename: "main.bundle.js",
     path: path.resolve(__dirname, "dist"),
