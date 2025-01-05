@@ -1,4 +1,4 @@
-import { uid } from "../utils.js";
+import { uid } from "../utils/utils.js";
 
 export class Todo {
   constructor(title, description, dueDate, priority, notes) {
